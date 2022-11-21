@@ -46,11 +46,13 @@ public class PurchaseIndentPageTest extends TestBase {
 	
     @Test(priority=2)
 	public void lookonpurchaseindentTest() throws InterruptedException{
-    	purchaseIndentPage.serchindent();
+       	Thread.sleep(2000);
+    	purchaseIndentPage.lookonandserchindent();
 	}
 	
     @Test(priority=3)
    	public void discartpurchaseindentTest() throws InterruptedException{
+       	Thread.sleep(2000);
        	purchaseIndentPage.discartindent();
    	}
     
@@ -77,6 +79,7 @@ public class PurchaseIndentPageTest extends TestBase {
     
     @Test(priority=5)
    	public void submitindentTest() throws InterruptedException{
+       	Thread.sleep(2000);
        	purchaseIndentPage.submitindent();
    	}
 

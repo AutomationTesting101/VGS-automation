@@ -5,9 +5,9 @@
     <classes>
       <class name="com.erp.qa.testcases.PurchaseIndentPageTest">
         <methods>
+          <include name="submitindentTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="addindentTest"/>
         </methods>
       </class> <!-- com.erp.qa.testcases.PurchaseIndentPageTest -->
     </classes>

@@ -36,18 +36,15 @@ public class DasbordPageTest extends TestBase {
 	}
 	
 	@Test(priority=2)
-	public void validatelogoTest(){
+	public void validatelogoTest() throws InterruptedException{
+		Thread.sleep(2000);
 		boolean flag = dasbordPage.validatelogo();
 		Assert.assertTrue(flag);
 	}
 
     @Test(priority=3)
-	public void clickpurchaseindentTest(){
-    	try {
-    		Thread.sleep(2000);
-    		} catch (InterruptedException e) {
-    		e.printStackTrace();
-    		}
+	public void clickpurchaseindentTest() throws InterruptedException{
+    	Thread.sleep(2000);
 		dasbordPage.clickOnpurchaseindentLink();
 		
 	}

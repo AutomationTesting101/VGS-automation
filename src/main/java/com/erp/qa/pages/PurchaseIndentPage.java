@@ -33,7 +33,10 @@ public class PurchaseIndentPage extends TestBase {
 	@FindBy(xpath = "(//input[contains(@type,'checkbox')])[40]")
 	WebElement chackboxdiscart;
 	
-	@FindBy(xpath = "(//input[contains(@type,'checkbox')])[48]")
+	@FindBy(xpath = "(//input[contains(@type,'checkbox')])[25]")
+	WebElement chackboxlookon;
+	
+	@FindBy(xpath = "(//input[contains(@type,'checkbox')])[56]")
 	WebElement chackboxsubmit;
 
 	@FindBy(xpath = "//button[normalize-space()='YES']")
@@ -55,11 +58,13 @@ public class PurchaseIndentPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void serchindent() throws InterruptedException {
+	public void lookonandserchindent() throws InterruptedException {
 		Thread.sleep(2000);
 		serchbox.click();
 		Thread.sleep(2000);
 		serchbox.sendKeys("dummy");
+		Thread.sleep(2000);
+		chackboxlookon.click();
 		Thread.sleep(2000);
 		lookonbtn.click();
 	}
@@ -105,6 +110,7 @@ public class PurchaseIndentPage extends TestBase {
 	public void saveindent() throws InterruptedException {
 		Thread.sleep(2000);
 		savebtn.click();
+		Thread.sleep(2000);
 	}
 
 }

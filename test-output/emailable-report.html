@@ -8,11 +8,45 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">59,231</td><td></td><td></td></tr>
+<tr><th colspan="8">ERPVGS Automation</th></tr>
+<tr><td><a href="#t0">ERP Test Cases</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">135,613</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.erp.qa.testcases.PurchaseIndentPageTest</td><td><a href="#m0">addindentTest</a></td><td rowspan="1">1668686343259</td><td rowspan="1">50543</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ERPVGS Automation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ERP Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.erp.qa.testcases.PurchaseIndentPageTest</td><td><a href="#m0">submitindentTest</a></td><td rowspan="1">1668754060482</td><td rowspan="1">4178</td></tr><tr><th colspan="4">ERP Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.erp.qa.testcases.DasbordPageTest</td><td><a href="#m1">clickpurchaseindentTest</a></td><td rowspan="1">1668753940174</td><td rowspan="1">4138</td></tr><tr class="passedeven"><td><a href="#m2">validatedashbordPageTitleTest</a></td><td rowspan="1">1668753932709</td><td rowspan="1">17</td></tr><tr class="passedeven"><td><a href="#m3">validatelogoTest</a></td><td rowspan="1">1668753935583</td><td rowspan="1">2050</td></tr><tr class="passedodd"><td rowspan="4">com.erp.qa.testcases.LoginPageTest</td><td><a href="#m4">loginTest</a></td><td rowspan="1">1668753954502</td><td rowspan="1">198</td></tr><tr class="passedodd"><td><a href="#m5">validatebuttonTest</a></td><td rowspan="1">1668753952052</td><td rowspan="1">23</td></tr><tr class="passedodd"><td><a href="#m6">validateloginPageTitleTest</a></td><td rowspan="1">1668753946941</td><td rowspan="1">6</td></tr><tr class="passedodd"><td><a href="#m7">validatelogupimgTest</a></td><td rowspan="1">1668753949346</td><td rowspan="1">37</td></tr><tr class="passedeven"><td rowspan="4">com.erp.qa.testcases.PurchaseIndentPageTest</td><td><a href="#m8">addindentTest</a></td><td rowspan="1">1668754002404</td><td rowspan="1">50986</td></tr><tr class="passedeven"><td><a href="#m9">discartpurchaseindentTest</a></td><td rowspan="1">1668753986680</td><td rowspan="1">9006</td></tr><tr class="passedeven"><td><a href="#m10">lookonpurchaseindentTest</a></td><td rowspan="1">1668753968727</td><td rowspan="1">10592</td></tr><tr class="passedeven"><td><a href="#m11">validatedashbordPageTitleTest</a></td><td rowspan="1">1668753961843</td><td rowspan="1">6</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.erp.qa.testcases.PurchaseIndentPageTest#addindentTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ERP Test Cases</h2><h3 id="m0">com.erp.qa.testcases.PurchaseIndentPageTest#submitindentTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;4.2.2&apos;, revision: &apos;683ccb65d6&apos;
+System info: host: &apos;BCV-DT-028&apos;, ip: &apos;192.168.1.38&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6eb6ea383649320ca069625d06030b3f, clickElement {id=05140143-1781-4dbd-9054-654c947f6576}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\YASHAN~1.SUD\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59095}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59095/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6eb6ea383649320ca069625d06030b3f)] -&gt; xpath: (//input[contains(@type,&apos;checkbox&apos;)])[56]]
+Session ID: 6eb6ea383649320ca069625d06030b3f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at com.erp.qa.pages.PurchaseIndentPage.submitindent(PurchaseIndentPage.java:95)
+	at com.erp.qa.testcases.PurchaseIndentPageTest.submitindentTest(PurchaseIndentPageTest.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.erp.qa.testcases.DasbordPageTest#clickpurchaseindentTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.erp.qa.testcases.DasbordPageTest#validatedashbordPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.erp.qa.testcases.DasbordPageTest#validatelogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.erp.qa.testcases.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.erp.qa.testcases.LoginPageTest#validatebuttonTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.erp.qa.testcases.LoginPageTest#validateloginPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.erp.qa.testcases.LoginPageTest#validatelogupimgTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.erp.qa.testcases.PurchaseIndentPageTest#addindentTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.erp.qa.testcases.PurchaseIndentPageTest#discartpurchaseindentTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.erp.qa.testcases.PurchaseIndentPageTest#lookonpurchaseindentTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.erp.qa.testcases.PurchaseIndentPageTest#validatedashbordPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

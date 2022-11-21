@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ERPVGS Automation">
+
+	<test name="ERP Test Cases">
+		<classes>
+			<class name="com.erp.qa.testcases.DasbordPageTest"></class>
+			<class name="com.erp.qa.testcases.LoginPageTest"></class>
+			<class name="com.erp.qa.testcases.PurchaseIndentPageTest"></class>
+		</classes>
+	</test>
+</suite>
